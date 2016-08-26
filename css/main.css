@@ -1,0 +1,61 @@
+.contenedor{
+    border:2px solid white;
+	width:1200px;
+		
+}
+
+.box{
+	text-align:center;
+	width:220px;
+	height:330px;
+	float:left;
+	background-color:whitesmoke;
+	color:black;
+	margin-left:5px;
+	padding-top:10px;
+	-webkit-box-shadow: 10px 10px 2px 2px rgba(214,206,214,1);
+    -moz-box-shadow: 10px 10px 2px 2px rgba(214,206,214,1);
+    box-shadow: 10px 10px 2px 2px rgba(214,206,214,1);
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.icon-headphones{
+	color:#48C39C;
+	font-size:50px;
+}
+.icon-leaf{
+	color:#48C39C;
+	font-size:50px;
+}
+.icon-hipster{
+	color:#48C39C;
+	font-size:50px;
+}
+.icon-enojado{
+	color:#48C39C;
+	font-size:50px;
+}
+.icon-marciano{
+	color:#48C39C;
+	font-size:50px;
+}
+.contenedor:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.box:hover{
+	color:grey;
+	background:whitesmoke;
+	-webkit-transform:scale(1.1);
+}
+
+.box:hover span{
+	font-size:80px;
+
+}
